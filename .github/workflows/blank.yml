@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omen's Profile</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to bottom, #ff0000, #000000); /* Red at top, fading to black at bottom */
+            color: #eaeaea;
+            margin: 0;
+            padding: 0;
+        }
+        .profile-container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 30px;
+            background-color: #0f3460;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            text-align: center;
+        }
+        h1 {
+            color: #e94560;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .highlight {
+            color: #f9d342;
+            font-weight: bold;
+        }
+        .valorant-id {
+            background-color: #16213e;
+            padding: 10px;
+            border-radius: 10px;
+            display: inline-block;
+            margin-top: 15px;
+        }
+        .social-links, .discord-servers, .other-links {
+            margin-top: 20px;
+        }
+        .social-links a, .discord-servers a, .other-links a {
+            color: #e94560;
+            text-decoration: none;
+            font-size: 20px;
+            margin: 0 10px;
+            transition: color 0.3s;
+        }
+        .social-links a:hover, .discord-servers a:hover, .other-links a:hover {
+            color: #f9d342;
+        }
+        .discord-servers a {
+            display: block;
+            margin: 5px 0;
+        }
+        .custom-color-root {
+            color: #1abc9c;
+        }
+        .custom-color-stokes {
+            color: #3498db;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <h1>Omen's Profile</h1>
+        <p><strong>Name:</strong> Omen</p>
+        <p><strong>Discord ID:</strong> Omenixe</p>
+        <p>I love <span class="highlight">Cricket</span> and I can bowl both pace and leg-spin.</p>
+        <p>My idols are <a href="https://en.wikipedia.org/wiki/Joe_Root" target="_blank" class="custom-color-root">Joe Root</a> and <a href="https://en.wikipedia.org/wiki/Ben_Stokes" target="_blank" class="custom-color-stokes">Ben Stokes</a>.</p>
+        <p>I play <span class="highlight">Roblox</span> and <span class="highlight">Valorant</span> in my free time.</p>
+        <p><strong>Coding:</strong> Beginner in JavaScript.</p>
+        <p class="valorant-id"><strong>Valorant ID:</strong> Omenize#Karma</p>
+        <div class="social-links">
+            <a href="https://discord.com" target="_blank">Discord</a>
+            <a href="https://www.roblox.com" target="_blank">Roblox</a>
+            <a href="https://playvalorant.com" target="_blank">Valorant</a>
+        </div>
+        <div class="discord-servers">
+            <p><strong>Discord Servers I'm Part Of:</strong></p>
+            <a href="https://discord.gg/8S2zj7TSwq" target="_blank">Free Robux (No Cap)</a>
+            <a href="https://discord.gg/mmJyPr7rju" target="_blank">El Bozo Familia</a>
+            <a href="https://discord.gg/UgsTmbthj5" target="_blank">The Pavilion</a>
+        </div>
+        <div class="other-links">
+            <p><strong>Find me on:</strong></p>
+            <a href="https://open.spotify.com/user/31rppevpeihji6gplsiyolpmmbgm" target="_blank">Spotify</a>
+            <a href="https://github.com/Omenize" target="_blank">GitHub</a>
+        </div>
+    </div>
+</body>
+</html>
